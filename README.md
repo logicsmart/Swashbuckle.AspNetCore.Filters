@@ -112,9 +112,9 @@ MyController.cs
 ```C#
 [ApiController]
 [Route("[controller]")]
-public class MultipartFilterTestController : ControllerBase
+public class MyController : ControllerBase
 {
-    public MultipartFilterTestController()
+    public MyController()
     {
     }
 
