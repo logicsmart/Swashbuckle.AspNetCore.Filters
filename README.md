@@ -1,5 +1,5 @@
 # Swashbuckle.AspNetCore.Filters.Multipart
-Adds multipart mime functionality to swashbuckle
+Adds multipart mime functionality to swashbuckle.  Provides attributes that can decorate a controller action so that swashbuckle can genereate the openapi json file and describe the action as accepting multipart http requests.  The Swagger ui will then behave accordingly.
 
 ## Background
 In the case of multiple part messages, in which one or more different sets of data are combined in a single body, a "multipart" Content-Type field must appear in the request header. The body must then contain one or more "body parts," each preceded by an encapsulation boundary, and the last one followed by a closing boundary. Each part starts with an encapsulation boundary, and then contains a body part consisting of header area, a blank line, and a body area. Thus a body part is similar to an RFC 822 message in syntax, but different in meaning.
