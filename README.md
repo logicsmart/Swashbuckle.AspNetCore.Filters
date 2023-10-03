@@ -1,4 +1,4 @@
-# Swashbuckle.AspNetCore.Filters.Multipart
+# LogicSmart.Swashbuckle.AspNetCore.Filters.Multipart
 Adds multipart mime functionality to swashbuckle.  Provides attributes that can decorate a controller action so that swashbuckle can genereate the openapi json file and describe the action as accepting multipart http requests.  The Swagger ui will then behave accordingly.
 
 ## Background
